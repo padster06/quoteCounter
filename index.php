@@ -30,8 +30,6 @@ $styles = scandir("styles");
       <link rel="apple-touch-icon" href="./img/180.png" />
    </head>
    <body>
-      <button onclick="localStorage.clear()">clear</button>
-
       <form id="nameInput">
          <input type="text" id="name" placeholder="name" />
          <button id="submit">
